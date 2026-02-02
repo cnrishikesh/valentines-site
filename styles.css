@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 3px 3px 8px #ff4081;
+    margin-bottom: 20px;
+}
+
+.flowers {
+    font-size: 60px;
+    margin: 30px 0;
+}
+
+.buttons {
+    margin-top: 40px;
+    position: relative;
+}
+
+button {
+    padding: 20px 45px;
+    font-size: 28px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff4081;
+    color: white;
+}
+
+#noBtn {
+    background-color: #444;
+    color: white;
+    position: absolute;
+}
+
+#result {
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
